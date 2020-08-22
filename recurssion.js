@@ -20,3 +20,12 @@ function factorial(num){
     else 
     return num*factorial(num-1);
  }
+
+ // productOfArray([1,2,3]) // 6
+// productOfArray([1,2,3,10]) // 60
+function productOfArray(arr){
+    if(arr.length === 1)
+    return arr[0];
+    else
+    return arr.pop() * productOfArray(arr);
+}
