@@ -1,4 +1,6 @@
 //bind
+
+
 let me = {
     name:'neeti',
     myName(...args){
